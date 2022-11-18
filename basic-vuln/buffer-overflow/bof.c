@@ -43,7 +43,13 @@ int main(int argc, char *argv[]){
 	setvbuf(stdout, NULL, 2, 0);
 	setvbuf(stderr, NULL, 2, 0);
 	char buffer[16] = {0};
-	printf("Nhập tên của bạn nè: ");
+	printf("\033[0;33mBuffer overflow (lỗi tràn bộ nhớ đệm) xảy ra khi lượng dữ liệu\n");
+	printf("\033[0;33mtruyền vào vượt quá khả năng lưu trữ của một vùng bộ nhớ.\n");
+	printf("\n");
+	printf("\033[0;33mMột trường hợp điển hình của buffer overflow\n");
+	printf("\033[0;33msẽ được minh họa bằng ví dụ sau đây.\n");
+	printf("\n\n\n");
+	printf("Nhập tên của bạn: ");
 	int len = read(0, buffer, 0x1000);
 	if (buffer[len-1] == 10) buffer[len-1] = '#';
 	if (len > 16){
