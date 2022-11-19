@@ -60,5 +60,21 @@ int main(int argc, char *argv[]){
 	}
 	printBuf(buffer);
 	printf("\n\n\n\033[0;32mCảm ơn gấc nhìu :>\n");
+	printf("\n\n\n");
+	printf("\033[0;33mMột biến thể khác của buffer overflow:\n");
+        printf("\n");
+        printf("\033[0;32mchar a[10];\n");
+        printf("\n");
+        printf("\033[0;31mfor (int i = 0; i <= 10; ++i) a[i] = 0;\n");
+        printf("\n\n\n");
+        printf("\033[0;33mLập trình viên đã đặt ràng buộc i <= 10 làm điều kiện dừng\n");
+        printf("\033[0;33mcủa vòng lặp.\n");
+        printf("\n");
+        printf("\033[0;31mVì số đếm bắt đầu từ 0 nên việc truy cập a[10] có nghĩa là\n");
+        printf("\033[0;31mvị trị thứ 11 trong mảng a sẽ bị truy cập, trong khi đó\n");
+        printf("\033[0;31mmảng a chỉ có 10 phần tử.\n");
+        printf("\033[0;33m==> Trông có vẻ đây là một lỗi khá ngớ ngẩn nhưng nó xảy ra\n");
+        printf("\033[0;33mkhá thường xuyên trong các dự án lớn trên thực tế.\n");
+        printf("\033[0;33mLỗi này còn được biết đến với tên là Off-by-one.\n");
 	exit(0);
 }
