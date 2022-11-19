@@ -58,6 +58,7 @@ int main(int argc, char *argv[]){
 	buffer[17] = ck2;
 	buffer[18] = ck3;
 	buffer[19] = ck4;
+	printf("Author: th3_5had0w@Sarmat\n");
 	printf("\033[0;33mSau khi buffer overflow trở nên phổ biến\n");
 	printf("\033[0;33mcác compiler đã thêm cơ chế bảo vệ canary\n");
 	printf("\033[0;33mgiúp giảm đáng kể lỗi này trên stack.\n");

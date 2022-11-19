@@ -43,6 +43,7 @@ int main(int argc, char *argv[]){
 	setvbuf(stdout, NULL, 2, 0);
 	setvbuf(stderr, NULL, 2, 0);
 	char buffer[16] = {0};
+	printf("Author: th3_5had0w@Sarmat\n");
 	printf("\033[0;33mBuffer overflow (lỗi tràn bộ nhớ đệm) xảy ra khi lượng dữ liệu\n");
 	printf("\033[0;33mtruyền vào vượt quá khả năng lưu trữ của một vùng bộ nhớ.\n");
 	printf("\n");
