@@ -20,6 +20,7 @@ int main(int argc, char *argv[]){
 	unsigned short totalPrice = 0;
 	unsigned int x = 0;
 	unsigned int y = 0;
+	printf("Author: th3_5had0w@Sarmat\n");
 	printf("\033[0;33mInteger overflow (lỗi tràn số) xảy ra khi các phép tính toán\n");
 	printf("\033[0;33mcho ra kết quả nằm ngoài phạm vi biểu diễn của hệ thống số.\n");
 	printf("\033[0;33mInteger overflow có thể khiến chương trình mất đi tính ổn định, logic\n");
