@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 	printf("\033[0;33mgiải thích về lỗi này. Khi lập trình viên đặt ra các ràng buộc không đủ chặt chẽ\n");
 	printf("\033[0;33mvề giới hạn, người dùng hay đôi khi là hệ thống xử lý sẽ vô tình truy cập\n");
 	printf("\033[0;33mvào những vùng \"không được cho phép\".\n");
-	printf("\033[0;32mẤn phím bất kì để tiếp tục...\n");
+	printf("\033[0;32m[*] Ấn phím bất kì để tiếp tục...\n");
 	getchar();
 	printf("\n\n\n");
 	printf("\033[0;33mHãy nhìn vào đoạn code sau:\n");
@@ -22,7 +22,8 @@ int main(int argc, char *argv[])
 	printf("\033[0;32m	return 1;\n");
 	printf("\033[0;32m}\n");
 	printf("\n\n\n");
-	printf("\033[0;32mẤn phím bất kì để tiếp tục...\n");
+	printf("\033[0;32mHãy tạm dừng và thử suy đoán xem đoạn code trên có lỗi ở đâu?\n");
+	printf("\033[0;32m[*] Ấn phím bất kì để tiếp tục...\n");
 	getchar();
 	printf("\033[0;33mĐoạn code trên mô phỏng một chương trình chọn món ăn\n");
 	printf("\033[0;32mnhưng nhà hàng chỉ có 3 món với các lựa chọn là 1, 2, 3.\n");
