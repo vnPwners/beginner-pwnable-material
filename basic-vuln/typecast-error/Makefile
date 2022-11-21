@@ -1,0 +1,4 @@
+all:
+	gcc typecasterr.c -o typecasterr 2>/dev/null
+clean:
+	rm typecasterr 2>/dev/null | true
