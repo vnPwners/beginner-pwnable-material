@@ -27,6 +27,8 @@ int main(int argc, char *argv[]){
 	printf("\033[0;33mhay còn có thể dẫn đến các lỗi bảo mật.\n");
 	printf("\033[0;33mSau đây là backend xử lý chương trình mua hàng\n");
 	printf("\033[0;33mcủa một shop bán quần áo do một anh lập trình viên nghiệp dư tạo ra:\n");
+	printf("\033[0;32m[*] Ấn phím bất kì để tiếp tục...\n");
+	getchar();
 	printf("\n");
 	printf("\033[0;33munsigned short totalPrice = 0;\n");
 	printf("\033[0;33mtotalPrice += PantPrice * x + ShirtPrice * y;\n");
