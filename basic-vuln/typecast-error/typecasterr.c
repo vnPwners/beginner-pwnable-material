@@ -10,6 +10,8 @@ int main(int argc, char *argv[])
 	printf("\033[0;33mnhưng ít được nêu tên vì hiếm khi nó cho phép hacker chiếm quyền điều khiển tiến trình mà\n");
 	printf("\033[0;33mđa số chỉ gây nên các lỗi crash hệ thống trong một số điều kiện nhất định và các lập trình viên\n");
 	printf("\033[0;33mcó thể sửa chữa nhanh chóng.\n");
+	printf("\033[0;32mẤn phím bất kì để tiếp tục...\n");
+	getchar();
 	printf("\033[0;33mHãy cùng kiểm tra xem thử đoạn code sau:\n");
 	printf("\n\n\n");
 	printf("\033[0;32mint readInt(){\n");
@@ -43,6 +45,9 @@ int main(int argc, char *argv[])
 	printf("\033[0;31m		doMagic(secretVal);\n");
 	printf("\033[0;32m	}\n");
 	printf("\033[0;32m}\n\n\n");
+	printf("\033[0;32mHãy tạm dừng và thử suy đoán xem đoạn code trên có lỗi ở đâu?\n");
+	printf("\033[0;32mẤn phím bất kì để tiếp tục...\n");
+	getchar();
 	printf("\033[0;33msecretVal là biến kiểu int mang giá trị do người dùng nhập vào sau đó\n");
 	printf("\033[0;33mđược check bằng hàm checkValid, tuy nhiên kiểu dữ liệu của tham số\n");
 	printf("\033[0;33mmà checkValid nhận vào là unsigned char, vậy khi gọi checkValid(secretVal)\n");
