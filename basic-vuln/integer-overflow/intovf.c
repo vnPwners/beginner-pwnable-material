@@ -32,7 +32,10 @@ int main(int argc, char *argv[]){
 	printf("\n");
 	printf("\033[0;33munsigned short totalPrice = 0;\n");
 	printf("\033[0;33mtotalPrice += PantPrice * x + ShirtPrice * y;\n");
-	printf("\n");
+	printf("\n\n\n");
+	printf("\033[0;32mHãy tạm dừng và thử suy đoán xem đoạn code trên có lỗi ở đâu?\n");
+	printf("\033[0;32m[*] Ấn phím bất kì để tiếp tục...\n");
+	getchar();
 	printf("\033[0;32mCó thể nhận thấy totalPrice là kiểu unsigned short\n");
 	printf("\033[0;31m=> totalPrice chỉ biểu diễn được từ 0 đến 65535, nếu lớn hơn\n");
 	printf("\033[0;31msẽ chắc chắn xảy ra lỗi tràn số.\n");
